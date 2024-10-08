@@ -1,0 +1,13 @@
+{
+    "name": "user/base",
+    "description": "js php tailwind",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "src\\": "src/",
+            "routes\\": "routes/"
+        }
+    },
+    "require": {}
+}
