@@ -1,48 +1,17 @@
-- root
-    - .gitignore
-    - app/
-        - controllers/
-            - authController.php
-            - homeController.php
-        - http/
-            - livewire/
-        - models/
-        - services/
-            - logger.php
-        - views/
-            - pages/
-                - home.php
-                - about.php
-                - register.php
-            - layouts/
-            - livewire/
-            - views/
-    - composer.json
-    - config/
-        - config.php
-    - docs
-    - node_modules/
-    - package-lock.json
-    - package.json
-    - postcss.config.js
-    - public/
-        - css/
-        - index.php
-        - js/
-    - routes/
-        - router.php
-        - web.php
-    - src/
-        - components/
-        - css/
-            - input.css
-        - state
-        - utils/
-            - errorHandler.php
-            - utils.js
-    - storage/
-    - tailwind.config.js
-    - tests/
-    - vendor/
-        - autoload.php
-        - composer/
+# steps
+
+1. basic file structure
+2. git init
+3. add homepage
+4. custom localhost logger
+5. install tailwind
+6. connect browser sync
+7. build script
+8. reconfigure tailwind
+9. 
+
+# next
+
+1. clean up root directory
+2. pages/layouts/components - work on home page navbar layout
+3. registration

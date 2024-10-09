@@ -6,3 +6,4 @@ require '../routes/web.php';
 use src\utils\errorHandler;
 
 errorHandler::register();
+
