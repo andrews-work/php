@@ -1,15 +1,16 @@
+require('dotenv').config({ path: `config/env/.env.${process.env.NODE_ENV}` });
+
 module.exports = {
     files: [
         'app/views/**/*.php',
-        'public/css/**/*.css',
+        'public/css/*.css',
         'public/js/**/*.js',
         'src/**/*.js',
         'src/**/*.css'
     ],
-    proxy: 'localhost:8000',
-    port: 3000,
+    proxy: `localhost:${process.env.PORT}`,
+    port: process.env.BROWSER_SYNC_PORT,
     host: 'localhost',
     notify: false,
-    open: false
+    open: 'local'
 };
-
