@@ -7,7 +7,8 @@ module.exports = {
     'public/css/*.css',
     'public/js/**/*.js',
     'src/**/*.js',
-    'src/css/*.css'
+    'src/css/*.css',
+    'src/utils/*.php'
   ],
   theme: {
     extend: {

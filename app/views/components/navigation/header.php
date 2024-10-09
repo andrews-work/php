@@ -1,8 +1,10 @@
-<header class='flex justify-center w-full h-20 bg-gray-200'>
-    <nav class='flex bg-green-300 w-80'>
+
+
+<header class='flex justify-center w-full h-20 bg-gray-200 border border-black border-bottom'>
+    <nav class='flex w-80'>
         <!-- column 1 -->
-        <div class='flex items-center justify-center w-1/6 p-2 border border-gray-400'>
-            <h1>logo</h1>
+        <div class='flex items-center justify-center w-1/6 h-10 p-2 border border-gray-400'>
+            <h1 class=''>logo</h1>
         </div>
 
         <!-- column 2 -->
@@ -19,7 +21,7 @@
         </div>
 
         <!-- column 3 -->
-        <div class='flex items-center justify-center w-1/6 p-2 border border-gray-400'>
+        <div class='flex items-center justify-center w-1/6 h-10 p-2 border border-gray-400'>
             <a href='/contact'>Register</a>
         </div>
     </nav>

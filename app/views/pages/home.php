@@ -1,17 +1,18 @@
 <?php
-// Include the layout file
+
+// layout - public
 include __DIR__ . '/../layouts/public.php';
 
-// Start output buffering
+// content - start
 ob_start();
 
-// Include the components
+// components
 include __DIR__ . '/../components/template/hero.php';
-include __DIR__ . '/../components/template/icons.php';
 
-// Get the buffered content
+// content - end
 $content = ob_get_clean();
 
-// Render the layout with the content
+// render
 renderLayout('Homepage', $content);
+
 ?>
