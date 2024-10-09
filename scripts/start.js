@@ -1,12 +1,21 @@
 require('dotenv').config({ path: `config/env/.env.${process.env.NODE_ENV}` });
 
-const { exec } = require('child_process');
+const { spawn } = require('child_process');
 
 const commands = {
   dev: [
-    'tailwindcss -i ./src/css/input.css -o ./public/css/output.css --watch',
-    'php -S localhost:${PORT} -t public',
-    'browser-sync start --config bs-config.js'
+    {
+      command: 'tailwindcss -i ./src/css/input.css -o ./public/css/output.css --watch',
+      message: 'building tailwind'
+    },
+    {
+      command: `php -S localhost:${process.env.PORT} -t public`,
+      message: 'server on port: ' + process.env.PORT
+    },
+    {
+      command: 'browser-sync start --config bs-config.js',
+      message: 'browser sync ports'
+    }
   ],
   uat: [
     // Add UAT-specific commands here
@@ -19,18 +28,25 @@ const commands = {
 const env = process.env.NODE_ENV;
 
 if (commands[env]) {
-  commands[env].forEach(command => {
-    console.log(`Executing: ${command}`);
-    exec(command, (error, stdout, stderr) => {
-      if (error) {
-        console.error(`Error executing ${command}: ${error.message}`);
-        return;
-      }
-      if (stderr) {
-        console.error(`Stderr from ${command}: ${stderr}`);
-        return;
-      }
-      console.log(`Stdout from ${command}: ${stdout}`);
+  commands[env].forEach(cmd => {
+    console.log(`${cmd.message}...`);
+    const [command, ...args] = cmd.command.split(' ');
+    const process = spawn(command, args);
+
+    process.stdout.on('data', (data) => {
+      console.log(`${data.toString().trim()}`);
+    });
+
+    process.stderr.on('data', (data) => {
+      console.error(`${data.toString().trim()}`);
+    });
+
+    process.on('close', (code) => {
+      console.log(`${cmd.message} completed with code ${code}`);
+    });
+
+    process.on('error', (err) => {
+      console.error(`Error executing ${cmd.command}: ${err.message}`);
     });
   });
 } else {

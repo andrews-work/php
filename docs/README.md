@@ -8,10 +8,11 @@
 6. connect browser sync
 7. build script
 8. reconfigure tailwind
-9. 
+9. public layout file for home + about 
+10. make the header and navbar components
 
 # next
 
-1. clean up root directory
-2. pages/layouts/components - work on home page navbar layout
-3. registration
+1. make header and navbar components
+2. registration
+3. clean up root directory

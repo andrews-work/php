@@ -1,16 +1,19 @@
 <?php
+// Include the layout file
+include __DIR__ . '/../layouts/public.php';
 
-// Define the title and content variables
-$title = "Home";
-$content = '
-    <div>
-        <h1 class="text-2xl font-bold text-white text-center d h-20">About Us</h1>
-        <p>This is the about page.</p>
-    </div>
+$title = 'about';
 
-';
+// Start output buffering
+ob_start();
 
-// Define the root directory and include the layout file in one line
-include (define('ROOT_DIR', realpath(dirname(__FILE__) . '/../../../')) ? ROOT_DIR : '') . '/app/views/layouts/public.php';
+// Include the components
+include __DIR__ . '/../components/template/hero.php';
+include __DIR__ . '/../components/template/about.php';
 
+// Get the buffered content
+$content = ob_get_clean();
+
+// Render the layout with the content
+renderLayout('about', $content);
 ?>
