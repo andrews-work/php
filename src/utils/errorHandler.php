@@ -30,16 +30,16 @@ class errorHandler
     }
 
     private static function displayError($errno, $errstr, $errfile, $errline)
-{
-    http_response_code(500);
-    echo "<div class='container p-4 mx-auto'>";
-    echo "<h1 class='text-2xl font-bold text-red-600'>Error</h1>";
-    echo "<p class='mt-2'><strong>Error Code:</strong> {$errno}</p>";
-    echo "<p class='mt-2'><strong>Error Message:</strong> {$errstr}</p>";
-    echo "<p class='mt-2'><strong>File:</strong> {$errfile}</p>";
-    echo "<p class='mt-2'><strong>Line:</strong> {$errline}</p>";
-    echo "<pre class='p-4 mt-4 bg-gray-100 rounded'>" . print_r(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 10), true) . "</pre>";
-    echo "</div>";
-}
+    {
+        http_response_code(500);
+        echo "<div class='container p-4 mx-auto'>";
+        echo "<h1 class='text-2xl font-bold text-red-600'>Error</h1>";
+        echo "<p class='mt-2'><strong>Error Code:</strong> {$errno}</p>";
+        echo "<p class='mt-2'><strong>Error Message:</strong> {$errstr}</p>";
+        echo "<p class='mt-2'><strong>File:</strong> {$errfile}</p>";
+        echo "<p class='mt-2'><strong>Line:</strong> {$errline}</p>";
+        echo "<pre class='p-4 mt-4 bg-gray-100 rounded'>" . print_r(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 10), true) . "</pre>";
+        echo "</div>";
+    }
 
 }

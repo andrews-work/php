@@ -7,9 +7,24 @@
         - http/
             - livewire/
         - models/
+        - routes/
+            - web.php
         - services/
             - logger.php
+        - storage/
+            - logs/
+            - uploads/
+            - cache/
         - views/
+            - components/
+                - form/
+                - livewire/
+                - navigation/
+                    - footer.php
+                    - header.php
+                - template/
+                    - hero.php
+                    - productPreview.php
             - pages/
                 - home.php
                 - about.php
@@ -29,18 +44,18 @@
         - css/
         - index.php
         - js/
-    - routes/
-        - router.php
-        - web.php
     - src/
         - components/
         - css/
             - input.css
+        - router.php
         - state
+        - storage/
+            - logs/
+            - temp
         - utils/
             - errorHandler.php
             - utils.js
-    - storage/
     - tailwind.config.js
     - tests/
     - vendor/

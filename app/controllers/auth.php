@@ -6,6 +6,6 @@ class auth
 {
     public function register()
     {
-        include __DIR__ . '/../Views/pages/register.php';
+        include __DIR__ . '/../views/pages/register.php';
     }
 }
