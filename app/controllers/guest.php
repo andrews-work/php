@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 
-class guest
+class Guest
 {
     public function index()
     {
@@ -28,7 +28,6 @@ class guest
     {
         include __DIR__ . '/../views/pages/login.php';
     }
-    
-    # forgot
-    
+
+    // Add other methods as needed
 }

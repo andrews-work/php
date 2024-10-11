@@ -1,0 +1,12 @@
+Timestamp: 2024-10-11 05:12:20
+Level: info
+Message: This is a test log message
+File: /Users/andrew/Documents/work/personal projects/projects/websites/base2/src/logs/logger.php
+Line: 35
+========================================
+Timestamp: 2024-10-11 05:30:16
+Level: info
+Message: This is a test log message
+File: /Users/andrew/Documents/work/personal projects/projects/websites/base2/src/logs/logger.php
+Line: 35
+========================================

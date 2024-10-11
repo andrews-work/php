@@ -16,8 +16,10 @@
 14. nice UI for header - working on components app + src
 15. moved routes/ and storage/ into src/ and app/
 16. db info to .env.dev 
-17. test db connection
-
+17. make form components
+18. localhost erorrs - handlers
+19. created an entry point for the app/ in app/app.php
+20. error handler
 
 # next
 
@@ -31,3 +33,13 @@
 6. make form components
 7. coonect + test db
 8. update build script
+9. more complex app/app.php which initialises the framework and logging? not sure about this
+
+
+
+1. get logger working
+2. get log file working in app/log.log
+3. get log file working in other files
+4. use namespaces
+5. use Logger:log to get log
+6. initialise logger in app/app.php
