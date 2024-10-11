@@ -1,9 +1,7 @@
 <?php
 
-require '../vendor/autoload.php';
-require '../app/routes/web.php';
+// Include the bootstrap file
+require_once __DIR__ . '../../app/app.php';
 
-use src\utils\errorHandler;
-
-errorHandler::register();
-
+// Your application logic here
+echo "Hello, World!";

@@ -8,4 +8,16 @@ class auth
     {
         include __DIR__ . '/../views/pages/register.php';
     }
+
+    public function forgotPass()
+    {
+
+    }
+
+    public function registerEmail()
+    {
+
+    }
+
+    
 }

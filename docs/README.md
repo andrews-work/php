@@ -14,11 +14,12 @@
 12. updated build script for better logging
 13. redo localhost error logger - better UI
 14. nice UI for header - working on components app + src
+15. moved routes/ and storage/ into src/ and app/
+16. db info to .env.dev 
+17. test db connection
 
 
 # next
-
-- question the difference between components in src  + app 
 
 1. make button components - and reusable primary colors - dark / light theme?
 2. custom logger
@@ -27,3 +28,6 @@
 5. error pages 
     - 404 not found
     - not authorized
+6. make form components
+7. coonect + test db
+8. update build script

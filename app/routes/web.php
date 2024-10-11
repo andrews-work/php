@@ -3,16 +3,16 @@
 require_once __DIR__ . '/../../src/router.php';
 
 # files
-use app\controllers\auth;
-use app\controllers\home;
+use app\controllers\guest;
 
 # start
 $router = new router();
 
 # basic routes
-$router->get('/', [home::class, 'index']);
-$router->get('/about', [home::class, 'about']);
-$router->get('/contact', [auth::class, 'contact']);
-$router->get('/register', [auth::class, 'register']);
+$router->get('/', [guest::class, 'index']);
+$router->get('/about', [guest::class, 'about']);
+$router->get('/contact', [guest::class, 'contact']);
+$router->get('/register', [guest::class, 'register']);
+$router->get('/login', [guest::class, 'login']);
 
 $router->dispatch();

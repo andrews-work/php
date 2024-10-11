@@ -7,7 +7,7 @@ include __DIR__ . '/../layouts/public.php';
 ob_start();
 
 // components
-include __DIR__ . '/../components/template/icons.php';
+include __DIR__ . '/../components/template/about.php';
 
 // content - end
 $content = ob_get_clean();

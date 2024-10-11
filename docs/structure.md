@@ -19,6 +19,7 @@
             - components/
                 - form/
                 - livewire/
+                - logo/
                 - navigation/
                     - footer.php
                     - header.php
