@@ -2,8 +2,9 @@
 
 namespace app\controllers;
 
-class Guest
+class guest
 {
+    
     public function index()
     {
         include __DIR__ . '/../views/pages/home.php';
@@ -28,6 +29,4 @@ class Guest
     {
         include __DIR__ . '/../views/pages/login.php';
     }
-
-    // Add other methods as needed
 }

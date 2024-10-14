@@ -1,11 +1,19 @@
 - root
     - .gitignore
     - app/
+        - app.php
+        - config/
+            - logs.php (if needed - maybe for custom logs)
+            - env/
+                - .env.dev
+                - .env.prod
+                - .env.uat 
         - controllers/
             - authController.php
             - homeController.php
-        - http/
-            - livewire/
+        - database
+            - fake/
+            - migrations/
         - models/
         - routes/
             - web.php
@@ -36,6 +44,7 @@
     - composer.json
     - config/
         - config.php
+        - env/ (currently this is where the env files are but they wil be moved from root/config to root/app/config same as the package and comopopser setup files)
     - docs
     - node_modules/
     - package-lock.json
@@ -61,4 +70,4 @@
     - tests/
     - vendor/
         - autoload.php
-        - composer/
+        - composer/ 

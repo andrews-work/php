@@ -1,14 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    'app/views/pages/*.php',
-    'app/views/components/navigation/*.php',
-    'app/views/components/template/*.php',
-    'public/css/*.css',
-    'public/js/**/*.js',
-    'src/**/*.js',
-    'src/css/*.css',
-    'src/utils/*.php'
+    
+    // root directory
+    'app/**/*.{html,js,php}',
+    'src/**/*.{html,js,php}',
+
+    // root/src/
+    // '../app/**/*.{html,js,php}',
+    // '../src/*.{html,js,php}',
+
+    // root/src/config/ 
+    // '../../app/**/*.{html,js,php}',
+    // '../../src/**/*.{html,js,php}',
+
   ],
   theme: {
     extend: {

@@ -1,5 +1,7 @@
 <?php
 
+namespace framework\presentation\router;
+
 class router
 {
     private $routes = [];
@@ -28,5 +30,3 @@ class router
         }
     }
 }
-
-

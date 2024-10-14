@@ -1,4 +1,4 @@
-require('dotenv').config({ path: `config/env/.env.${process.env.NODE_ENV}` });
+require('dotenv').config({ path: `app/config/env/.env.${process.env.NODE_ENV}` });
 
 module.exports = {
     files: [

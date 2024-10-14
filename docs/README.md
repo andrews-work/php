@@ -20,6 +20,9 @@
 18. localhost erorrs - handlers
 19. created an entry point for the app/ in app/app.php
 20. error handler
+21. spent a whole day on logging and failed`
+22. looked into adding new features/other files tructures and learnt about containers and services and interfaces
+23. creaated a container for /src/ 
 
 # next
 
@@ -43,3 +46,35 @@
 4. use namespaces
 5. use Logger:log to get log
 6. initialise logger in app/app.php
+
+
+
+
+# future file strucutre
+
+- app
+    - config
+    - controllers
+    - services
+    - events
+    - listeners
+    - middleware
+    - routes
+    - database
+    - models
+    - views
+    - storage
+    - containers
+    - caching
+    - interfaces
+    - tests
+    - console
+    - api
+    - policies
+    - notifications
+    - docs
+    - handlers
+    - authorisation
+    - authentication
+    - validation 
+    - encyprtion

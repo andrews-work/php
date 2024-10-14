@@ -1,9 +1,8 @@
 <?php
 
-require_once __DIR__ . '/../../src/router.php';
-
 # files
 use app\controllers\guest;
+use framework\presentation\router\router;
 
 # start
 $router = new router();
