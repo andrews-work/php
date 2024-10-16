@@ -2,17 +2,26 @@
 
 namespace framework\utils\logs;
 
-class logger
+class logs
 {
     protected $logFile;
     protected $logLevel;
     protected $projectRoot;
+    private static $instance;
 
-    public function __construct($logFile, $logLevel = 'info', $projectRoot = '')
+    private function __construct($logFile, $logLevel = 'info', $projectRoot = '')
     {
         $this->logFile = $logFile;
         $this->logLevel = $logLevel;
         $this->projectRoot = rtrim($projectRoot, DIRECTORY_SEPARATOR);
+    }
+
+    public static function getInstance($logFile, $logLevel = 'info', $projectRoot = '')
+    {
+        if (self::$instance === null) {
+            self::$instance = new self($logFile, $logLevel, $projectRoot);
+        }
+        return self::$instance;
     }
 
     public function log($level, $message)
@@ -55,25 +64,24 @@ class logger
             'line' => isset($backtrace[1]['line']) ? $backtrace[1]['line'] : 'unknown',
         ];
     }
-    
 
-    public function debug($message)
-    {
-        $this->log('debug', $message);
+    public static function debug($message) {
+        self::getInstance($message)->log('debug', $message);
     }
 
-    public function info($message)
-    {
-        $this->log('info', $message);
+    public static function start($message) {
+        self::getInstance($message)->log('start', $message);
     }
 
-    public function warning($message)
-    {
-        $this->log('warning', $message);
+    public static function info($message) {
+        self::getInstance($message)->log('info', $message);
     }
 
-    public function error($message)
-    {
-        $this->log('error', $message);
+    public static function warning($message) {
+        self::getInstance($message)->log('warning', $message);
+    }
+
+    public static function error($message) {
+        self::getInstance($message)->log('error', $message);
     }
 }

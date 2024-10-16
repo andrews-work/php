@@ -5,6 +5,17 @@ namespace framework\presentation\router;
 class router
 {
     private $routes = [];
+    private static $instance;
+
+    private function __construct() {}
+
+    public static function getInstance()
+    {
+        if (self::$instance === null) {
+            self::$instance = new self();
+        }
+        return self::$instance;
+    }
 
     public function get($path, $controller)
     {
@@ -28,5 +39,11 @@ class router
             http_response_code(404);
             echo "404 Not Found";
         }
+    }
+
+    public static function __callStatic($name, $arguments)
+    {
+        $instance = self::getInstance();
+        return call_user_func_array([$instance, $name], $arguments);
     }
 }

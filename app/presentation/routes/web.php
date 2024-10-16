@@ -1,11 +1,13 @@
 <?php
 
+namespace app\presentation\routes;
+
 # files
-use app\controllers\guest;
+use app\presentation\controllers\guest;
 use framework\presentation\router\router;
 
 # start
-$router = new router();
+$router = router::getInstance();
 
 # basic routes
 $router->get('/', [guest::class, 'index']);

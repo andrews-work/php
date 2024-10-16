@@ -9,6 +9,6 @@ $logLevel = getenv('LOG_LEVEL') ?: 'info';
 
 return [
     'log_file' => $projectRoot . '/app/storage/logs.log',
-    'log_level' => $logLevel,
+    'log_level' => 'error',
     'project_root' => $projectRoot,
 ];

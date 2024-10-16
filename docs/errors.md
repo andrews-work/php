@@ -1,8 +1,6 @@
-# tailwind 
+<?php
 
-- wrong file paths in the 'content' section of the tailwind.config.js
+namespace app;
 
-# build scripts
-
-- wrong file path for config/env/.env
-
+require '../vendor/autoload.php';
+require 'presentation/routes/web.php';

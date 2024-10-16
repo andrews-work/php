@@ -2,22 +2,26 @@
 
 namespace framework\config;
 
-use framework\utils\logs\logger;
+use framework\utils\logs\logs;
 use framework\presentation\router\router;
 
-class services {
-    public static function configure($container) {
+class services
+{
+    public static function configure($container)
+    {
         self::configureLogging($container);
         self::configureRouting($container);
     }
 
-    private static function configureLogging($container) {
+    private static function configureLogging($container)
+    {
         // Load log configuration
         $logConfig = require __DIR__ . '/logs.php';
-        $container->set('logs', new logger($logConfig['log_file'], $logConfig['log_level'], $logConfig['project_root']));
+        $container->set('logs', logs::getInstance($logConfig['log_file'], $logConfig['log_level'], $logConfig['project_root']));
     }
 
-    private static function configureRouting($container) {
-        $container->set('router', new router());
+    private static function configureRouting($container)
+    {
+        $container->set('router', router::getInstance());
     }
 }
