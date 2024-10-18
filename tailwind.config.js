@@ -5,6 +5,7 @@ module.exports = {
     // root directory
     'app/**/*.{html,js,php}',
     'src/**/*.{html,js,php}',
+    'app/presentation/views/**/*.{html,js,php}',
 
     // root/src/
     // '../app/**/*.{html,js,php}',
@@ -17,6 +18,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+
+      colors: {
+        black: '#000000', // black
+        two: '#ffffff', // white
+        three: '#ff0000',  // Red
+        four: '#0000ff',  // Blue
+        five: '#00ff00', // Green
+      },
+
+      spacing: {
+        '5vh': '5vh',
+        '10vh': '10vh',
+      },
+
       height: {
         '5': '5vh',
         '10': '10vh',

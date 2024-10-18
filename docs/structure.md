@@ -71,3 +71,38 @@
     - vendor/
         - autoload.php
         - composer/ 
+
+
+- root
+    - app/
+        - presentation/
+            - views/
+                - pages/
+                    - contact.php
+    - src/
+        - presentation/
+            - views/
+                - components/
+                    - cards/
+                        - render.php
+                        - imgText.php
+                        - textImg.php
+                        - text.php
+                    - template/
+                        - cards2.php
+                        - cards3.php
+                        - cards4.php
+                        - render.php
+
+// i wanna change the src directory like below using classes, is it possible? 
+
+    - src/
+        - presentation/
+            - views/
+                - components/
+                    - cards/
+                        - render.php
+                        - cards.php # class 
+                    - template/
+                        - cards.php # class
+                        - render.php
