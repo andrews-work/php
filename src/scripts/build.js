@@ -5,7 +5,7 @@ const { spawn } = require('child_process');
 const commands = {
   dev: [
     {
-      command: 'tailwindcss -i ./src/presentation/css/input.css -o ./public/css/output.css --watch',
+      command: 'tailwindcss -i ./presentation/css/input.css -o ./../public/css/output.css --watch',
       message: 'building tailwind'
     },
     {
@@ -13,7 +13,7 @@ const commands = {
       message: 'server on port: ' + process.env.PORT
     },
     {
-      command: 'browser-sync start --config bs-config.js',
+      command: 'browser-sync start --config src/config/bs-config.js',
       message: 'browser sync ports'
     }
   ],

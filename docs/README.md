@@ -46,7 +46,10 @@
 44. making error handler to display localhost errors nicely (i removed the one from step 18 for somereason)
 45. error handler class - remove file paths
 46. error handler page - tailwind
-47. 
+47. made view class
+48. moved scripts/start.js to src/scripts/start.js
+49. moved bs-config.js to src/config/bs-config.js - file paths might cause errors later
+49. 
 
 
 # errors

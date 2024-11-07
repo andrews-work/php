@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-      "dev": "NODE_ENV=dev node src/scripts/start.js",
-      "uat": "NODE_ENV=uat node src/scripts/start.js",
-      "prod": "NODE_ENV=prod node src/scripts/start.js"
+      "dev": "NODE_ENV=dev node src/scripts/build.js",
+      "uat": "NODE_ENV=uat node src/scripts/build.js",
+      "prod": "NODE_ENV=prod node src/scripts/build.js"
     },
     "keywords": [],
     "author": "",
@@ -21,3 +21,4 @@
     }
   }
   
+

@@ -14,6 +14,8 @@ class auth
         
         new view('pages/login');
         return;
+
+        logs::info('redirected - login');
     }
 
 }
