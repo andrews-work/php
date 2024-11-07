@@ -1,12 +1,12 @@
 <?php
 
 // layout - public
-include __DIR__ . '/../layouts/public.php';
+require_once __DIR__ . '/../layouts/public.php';
 
 // content - start
 ob_start();
 
-// components
+// components/sections/views
 include __DIR__ . '/../components/form/register.php';
 
 // content - end

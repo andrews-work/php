@@ -1,23 +1,18 @@
 <?php
 
-namespace app\controllers;
+namespace app\presentation\controllers;
+
+use framework\utils\logs\logs;
+use framework\presentation\views\view;
 
 class auth
 {
-    public function register()
-    {
-        include __DIR__ . '/../views/pages/register.php';
-    }
-
-    public function forgotPass()
-    {
+    // register
+    public function register() {
+        logs::info('User attempting to register');
+        // return new view('pages/login');
+        require './app/presentation/views/pages/login.php';
 
     }
 
-    public function registerEmail()
-    {
-
-    }
-
-    
 }

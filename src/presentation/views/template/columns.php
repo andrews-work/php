@@ -1,6 +1,6 @@
 <?php
 
-namespace framework\presentation\views\components\template;
+namespace framework\presentation\views\template;
 
 class columns {
     public function renderSection1Col($sectionHeight, $sectionBgColor, $content) {

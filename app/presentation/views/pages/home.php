@@ -1,9 +1,9 @@
 <?php
 
 // Include the layout and class files
-include __DIR__ . '/../layouts/public.php';
+require_once __DIR__ . '/../layouts/public.php';
 
-use framework\presentation\views\components\template\columns;
+use framework\presentation\views\template\columns;
 
 // Content - start
 ob_start();
@@ -16,7 +16,7 @@ ob_start();
 
     // section 2
     $sectionHeight2 = 'h-full';
-    $sectionBgColor2 = 'bg-blue-700';
+    $sectionBgColor2 = 'bg-white-100';
     $content2 = [
         '<div>Card 4 Content</div>',
         '<div>Card 5 Content</div>',
@@ -35,7 +35,7 @@ ob_start();
 
     // section 3
     $sectionHeight3 = 'h-3/4';
-    $sectionBgColor3 = 'bg-green-700';
+    $sectionBgColor3 = 'bg-white-100';
     $content3 = [
         '<div>Card 6 Content</div>',
         '<div>Card 7 Content</div>',

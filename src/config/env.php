@@ -1,24 +1,40 @@
 <?php
 
-function loadEnv($file) {
-    if (!file_exists($file)) {
-        return;
+namespace framework\config;
+
+use Exception;
+
+class env {
+    private static $instance = null;
+    private static $data = [];
+
+    private function __construct() {}
+
+    public static function getInstance() {
+        if (self::$instance === null) {
+            self::$instance = new self();
+        }
+        return self::$instance;
     }
 
-    $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    foreach ($lines as $line) {
-        if (strpos(trim($line), '#') === 0) {
-            continue;
+    public static function load($file) {
+        if (!file_exists($file)) {
+            throw new Exception("The .env file does not exist.");
         }
 
-        list($name, $value) = explode('=', $line, 2);
-        $name = trim($name);
-        $value = trim($value);
-
-        if (!array_key_exists($name, $_SERVER) && !array_key_exists($name, $_ENV)) {
-            putenv(sprintf('%s=%s', $name, $value));
-            $_ENV[$name] = $value;
-            $_SERVER[$name] = $value;
+        $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        foreach ($lines as $line) {
+            // Ignore comments
+            if (strpos(trim($line), '#') === 0) {
+                continue;
+            }
+            // Split key and value
+            list($key, $value) = explode('=', $line, 2);
+            self::$data[trim($key)] = trim($value);
         }
+    }
+
+    public static function get($key, $default = null) {
+        return isset(self::$data[$key]) ? self::$data[$key] : $default;
     }
 }

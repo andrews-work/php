@@ -1,6 +1,6 @@
 <?php
 
-namespace app\utils\containers;
+namespace app\core\containers;
 
 class app {
     private $services = [];

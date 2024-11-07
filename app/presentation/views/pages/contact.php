@@ -1,9 +1,9 @@
 <?php
 
 // Include the layout and class files
-include __DIR__ . '/../layouts/public.php';
+require_once __DIR__ . '/../layouts/public.php';
 
-use framework\presentation\views\components\template\columns;
+use framework\presentation\views\template\columns;
 use framework\presentation\views\components\cards\Cards;
 
 // Instantiate the Cards class
@@ -17,17 +17,17 @@ ob_start();
 
     // section 2
     $sectionHeight2 = 'h-full';
-    $sectionBgColor2 = 'bg-blue-700';
+    $sectionBgColor2 = 'bg-gray-900';
     $content2 = [
         $cards->renderCard('textImg', [
-            'bgColor' => 'bg-blue-500',
-            'borderColor' => 'border-blue-500',
+            'bgColor' => 'bg-gray-900',
+            'borderColor' => 'border-blue-200',
             'textColor' => 'text-white',
             'title' => 'Sample Title',
             'imageUrl' => 'path/to/image.jpg',
         ]),
         $cards->renderCard('textImg', [
-            'bgColor' => 'bg-blue-500',
+            'bgColor' => 'bg-gray-900',
             'borderColor' => 'border-blue-500',
             'textColor' => 'text-white',
             'title' => 'Sample Title',
@@ -38,7 +38,7 @@ ob_start();
 
     // section 1
     $sectionHeight1 = 'h-5/6';
-    $sectionBgColor1 = 'bg-red-700';
+    $sectionBgColor1 = 'bg-gray-100';
     $content1 = [
         $cards->renderCard('imgText', [
             'imageUrl' => 'path/to/image.jpg',
@@ -57,7 +57,7 @@ ob_start();
 
     // section 3
     $sectionHeight3 = 'h-3/4';
-    $sectionBgColor3 = 'bg-green-700';
+    $sectionBgColor3 = 'bg-gray-900';
     $content3 = [
         $cards->renderCard('text', [
             'header' => 'Sample Header',

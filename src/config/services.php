@@ -4,6 +4,7 @@ namespace framework\config;
 
 use framework\utils\logs\logs;
 use framework\presentation\router\router;
+use framework\database\db;
 
 class services
 {
@@ -11,17 +12,23 @@ class services
     {
         self::configureLogging($container);
         self::configureRouting($container);
+        // self::configureDatabase($container);
     }
 
     private static function configureLogging($container)
     {
-        // Load log configuration
         $logConfig = require __DIR__ . '/logs.php';
-        $container->set('logs', logs::getInstance($logConfig['log_file'], $logConfig['log_level'], $logConfig['project_root']));
+        $container -> set ('logs', logs::getInstance($logConfig['log_file'], $logConfig['log_level'], $logConfig['project_root']));
     }
 
     private static function configureRouting($container)
     {
-        $container->set('router', router::getInstance());
+        $container-> set ('router', router::getInstance());
     }
+
+    // private static function configureDatabase($container)
+    // {
+    //     $container -> set ('database', db::getInstance());
+    // }
+
 }

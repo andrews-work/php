@@ -51,19 +51,20 @@ class logs
 
     protected function getCallerInfo()
     {
-        $backtrace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 2);
-        $file = isset($backtrace[1]['file']) ? $backtrace[1]['file'] : 'unknown';
-
+        $backtrace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 3); // Look 3 steps back to skip the log() method
+        $file = isset($backtrace[2]['file']) ? $backtrace[2]['file'] : 'unknown';
+        $line = isset($backtrace[2]['line']) ? $backtrace[2]['line'] : 'unknown';
+    
         // Remove the project root path from the file path
         if ($this->projectRoot && strpos($file, $this->projectRoot) === 0) {
             $file = substr($file, strlen($this->projectRoot) + 1);
         }
-
+    
         return [
             'file' => $file,
-            'line' => isset($backtrace[1]['line']) ? $backtrace[1]['line'] : 'unknown',
+            'line' => $line,
         ];
-    }
+    }    
 
     public static function debug($message) {
         self::getInstance($message)->log('debug', $message);
