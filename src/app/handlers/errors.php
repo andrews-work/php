@@ -22,9 +22,9 @@ class errors {
             'type' => 'Error',
             'errno' => $errno,
             'message' => $errstr,
-            'file' => $errfile,
+            'file' => self::formatFilePath($errfile),
             'line' => $errline,
-            'trace' => debug_backtrace()
+            'trace' => self::formatStackTrace(debug_backtrace())  // Format the stack trace
         ];
 
         // Always show the detailed error page in development (for now)
@@ -37,9 +37,9 @@ class errors {
         $exceptionData = [
             'type' => 'Exception',
             'message' => $exception->getMessage(),
-            'file' => $exception->getFile(),
+            'file' => self::formatFilePath($exception->getFile()),
             'line' => $exception->getLine(),
-            'trace' => $exception->getTrace()
+            'trace' => self::formatStackTrace($exception->getTrace())  // Format the stack trace
         ];
 
         // Always show the detailed error page in development (for now)
@@ -59,8 +59,48 @@ class errors {
     public static function displayErrorPage($errorData)
     {
         // Include the error page template
-        // include '../../presentation/views/pages/error.php';
         include './src/presentation/views/pages/error.php';
+    }
+
+    // Format file path to display relative paths from the 'app' directory
+    private static function formatFilePath($filePath)
+    {
+        $baseDir = '/app'; // The part of the path you want to keep
+        
+        // Strip everything before the '/app' directory
+        return strstr($filePath, '/app'); // Remove everything before '/app'
+    }
+
+    // Format the stack trace to adjust file paths
+    private static function formatStackTrace($stackTrace)
+    {
+        // Loop through each frame of the stack trace
+        foreach ($stackTrace as &$frame) {
+            if (isset($frame['file'])) {
+                // Format the file path for each stack trace frame
+                $frame['file'] = self::formatFilePath($frame['file']);
+            }
+
+            // Now let's format the arguments (args) in each frame
+            if (isset($frame['args'])) {
+                $frame['args'] = self::formatStackTraceArgs($frame['args']);  // Sanitize the args if they contain paths
+            }
+        }
+
+        return $stackTrace;
+    }
+
+    // Format and sanitize the arguments (args) in the stack trace
+    private static function formatStackTraceArgs($args)
+    {
+        foreach ($args as &$arg) {
+            if (is_string($arg) && strpos($arg, '/app') !== false) {
+                // If the argument is a string containing a file path, sanitize it
+                $arg = self::formatFilePath($arg);
+            }
+        }
+
+        return $args;
     }
 
     // Log errors to a file or logging service (optional)

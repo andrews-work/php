@@ -5,16 +5,11 @@ module.exports = {
     // root directory
     'app/**/*.{html,js,php}',
     'src/**/*.{html,js,php}',
+
+    // app directory
     'app/presentation/views/**/*.{html,js,php}',
-
-    // root/src/
-    // '../app/**/*.{html,js,php}',
-    // '../src/*.{html,js,php}',
-
-    // root/src/config/ 
-    // '../../app/**/*.{html,js,php}',
-    // '../../src/**/*.{html,js,php}',
-
+    // src directory
+    'src/presentation/views/pages/error.php'
   ],
   theme: {
     extend: {
@@ -78,4 +73,3 @@ module.exports = {
   },
   plugins: [],
 }
-

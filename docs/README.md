@@ -44,6 +44,8 @@
 42. simple form to add users to db and redirect to login page
 43. trying to make view class - not working
 44. making error handler to display localhost errors nicely (i removed the one from step 18 for somereason)
+45. error handler class - remove file paths
+46. error handler page - tailwind
 
 # next
 
