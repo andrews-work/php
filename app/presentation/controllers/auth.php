@@ -9,10 +9,11 @@ class auth
 {
     // register
     public function register() {
-        logs::info('User attempting to register');
-        // return new view('pages/login');
-        require './app/presentation/views/pages/login.php';
 
+        logs::info('User attempting to register');
+        
+        new view('pages/login');
+        return;
     }
 
 }

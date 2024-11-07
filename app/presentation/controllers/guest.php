@@ -2,37 +2,43 @@
 
 namespace app\presentation\controllers;
 
+use framework\presentation\views\view;
 use framework\utils\logs\logs;
 
 class guest
 {    
     public function index()
     {
-        include __DIR__ . '/../views/pages/home.php';
+        // View is rendered automatically
+        new view('pages/home');
         logs::info('home page');
     }
 
     public function about()
     {
-        include __DIR__ . '/../views/pages/about.php';
+        // View is rendered automatically
+        new view('pages/about');
         logs::info('about page');
     }
 
     public function contact()
     {
-        include __DIR__ . '/../views/pages/contact.php';
+        // View is rendered automatically
+        new view('pages/contact');
         logs::info('contact page');
     }
 
     public function register()
     {
-        include __DIR__ . '/../views/pages/register.php';
+        // View is rendered automatically
+        new view('pages/register');
         logs::info('register page');
     }
 
     public function login()
     {
-        include __DIR__ . '/../views/pages/login.php';
+        // View is rendered automatically
+        new view('pages/login');
         logs::info('login page');
     }
 }

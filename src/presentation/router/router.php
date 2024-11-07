@@ -9,6 +9,7 @@ class router
 
     private function __construct() {}
 
+    // instance
     public static function getInstance()
     {
         if (self::$instance === null) {
@@ -17,7 +18,7 @@ class router
         return self::$instance;
     }
 
-    // Register GET routes
+    // get
     public function get($path, $controller)
     {
         $this->routes['GET'][$path] = [
@@ -27,7 +28,7 @@ class router
         return $this;
     }
 
-    // Register POST routes
+    // post
     public function post($path, $controller)
     {
         $this->routes['POST'][$path] = [
@@ -37,7 +38,7 @@ class router
         return $this;
     }
 
-    // Register PUT routes
+    // put
     public function put($path, $controller)
     {
         $this->routes['PUT'][$path] = [
@@ -47,7 +48,7 @@ class router
         return $this;
     }
 
-    // Register DELETE routes
+    // delete
     public function delete($path, $controller)
     {
         $this->routes['DELETE'][$path] = [
@@ -57,19 +58,22 @@ class router
         return $this;
     }
 
-    // Attach middleware to the route
+    // middleware
     public function middleware($middleware)
     {
-        $method = $_SERVER['REQUEST_METHOD']; // Determine the request method (GET, POST, etc.)
-        $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH); // Get the current URI
+        // get method + uri
+        $method = $_SERVER['REQUEST_METHOD'];
+        $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
+        // add middleware
         if (isset($this->routes[$method][$uri])) {
             $this->routes[$method][$uri]['middleware'][] = $middleware;
         }
-        return $this; // Allow method chaining
+
+        return $this;
     }
 
-    // Dispatch the request
+    // dispatch
     public function dispatch()
     {
         $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -77,21 +81,23 @@ class router
 
         if (isset($this->routes[$method][$uri])) {
             $route = $this->routes[$method][$uri];
+
             $controller = $route['controller'];
             $middleware = $route['middleware'];
 
-            // Execute middleware (if any)
+            // add middleware
             foreach ($middleware as $middlewareClass) {
                 $middlewareInstance = new $middlewareClass();
                 $response = $middlewareInstance->handle($_REQUEST, $_SERVER);
+
+                // error
                 if ($response) {
-                    // If middleware returns a response, stop further processing
                     echo $response;
                     return;
                 }
             }
 
-            // Call the controller if middleware doesn't halt the process
+            // call controller 
             call_user_func_array([new $controller[0], $controller[1]], []);
         } else {
             http_response_code(404);
@@ -99,7 +105,7 @@ class router
         }
     }
 
-    // Static access to methods
+    // static methods
     public static function __callStatic($name, $arguments)
     {
         $instance = self::getInstance();

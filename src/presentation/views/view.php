@@ -8,25 +8,25 @@ class view
     protected $data = [];
     protected $viewBasePath;
 
-    // data
+    // Constructor
     public function __construct($viewPath, $data = [])
     {
-        // base path + data
-        $this->viewBasePath = realpath(__DIR__ . './../../../app/presentation/views'); 
+        // set base path + data = render
+        $this->viewBasePath = realpath(__DIR__ . '/../../../app/presentation/views');
         $this->viewPath = $viewPath;
         $this->data = $data;
+
+        $this->render();
     }
 
-    // render
+    // render view
     public function render()
     {
-        // Extract the data to variables so they can be used directly in the view
+        // extract data
         extract($this->data);
-
-        // Build the full path to the view file
         $viewFile = $this->viewBasePath . '/' . $this->viewPath . '.php';
 
-        // Check if the view file exists
+        // get file
         if (file_exists($viewFile)) {
             include $viewFile;
         } else {

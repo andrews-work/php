@@ -1,528 +1,66 @@
-Timestamp: 2024-11-07 03:20:16
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:20:49
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:20:55
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:21:09
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:21:19
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:21:28
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:21:35
+Timestamp: 2024-11-07 12:48:20
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
-Line: 12
+Line: 14
 ========================================
-Timestamp: 2024-11-07 03:21:36
+Timestamp: 2024-11-07 12:48:21
 Level: info
 Message: about page
 File: app/presentation/controllers/guest.php
-Line: 18
+Line: 21
 ========================================
-Timestamp: 2024-11-07 03:21:37
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 24
-========================================
-Timestamp: 2024-11-07 03:21:39
+Timestamp: 2024-11-07 12:48:24
 Level: info
 Message: register page
 File: app/presentation/controllers/guest.php
-Line: 30
+Line: 35
 ========================================
-Timestamp: 2024-11-07 03:21:40
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:39:22
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:39:46
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:39:54
+Timestamp: 2024-11-07 12:57:49
 Level: info
 Message: register page
 File: app/presentation/controllers/guest.php
-Line: 30
+Line: 35
 ========================================
-Timestamp: 2024-11-07 03:39:55
+Timestamp: 2024-11-07 12:58:11
 Level: info
-Message: about page
+Message: register page
 File: app/presentation/controllers/guest.php
-Line: 18
+Line: 35
 ========================================
-Timestamp: 2024-11-07 03:39:56
+Timestamp: 2024-11-07 12:58:19
+Level: info
+Message: register page
+File: app/presentation/controllers/guest.php
+Line: 35
+========================================
+Timestamp: 2024-11-07 12:58:27
+Level: info
+Message: register page
+File: app/presentation/controllers/guest.php
+Line: 35
+========================================
+Timestamp: 2024-11-07 13:00:16
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
-Line: 12
+Line: 14
 ========================================
-Timestamp: 2024-11-07 03:39:57
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 24
-========================================
-Timestamp: 2024-11-07 03:39:59
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 03:40:00
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:41:37
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:41:40
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 18
-========================================
-Timestamp: 2024-11-07 03:41:40
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 24
-========================================
-Timestamp: 2024-11-07 03:41:41
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 03:41:42
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:41:47
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:43:32
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:43:35
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:48:35
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 03:48:37
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:48:42
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 03:48:44
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:52:25
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 03:52:27
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:52:30
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 18
-========================================
-Timestamp: 2024-11-07 03:52:31
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 24
-========================================
-Timestamp: 2024-11-07 03:52:32
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 03:52:33
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:53:08
+Timestamp: 2024-11-07 13:00:33
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
-Line: 12
+Line: 14
 ========================================
-Timestamp: 2024-11-07 03:53:25
+Timestamp: 2024-11-07 13:00:36
 Level: info
-Message: register page
+Message: about page
 File: app/presentation/controllers/guest.php
-Line: 30
+Line: 21
 ========================================
-Timestamp: 2024-11-07 03:53:27
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:53:35
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:53:42
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:53:49
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:56:47
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:56:52
+Timestamp: 2024-11-07 13:00:36
 Level: info
 Message: contact page
 File: app/presentation/controllers/guest.php
-Line: 24
-========================================
-Timestamp: 2024-11-07 03:56:54
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 03:56:56
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:57:59
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 03:58:01
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:58:34
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 03:59:07
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:01:31
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:01:57
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:02:00
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:02:01
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:02:10
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:02:19
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:02:36
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:02:37
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:03:05
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:03:11
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:03:16
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:04:23
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:04:25
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:05:54
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:05:56
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:06:14
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:06:15
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:06:28
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:06:29
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:06:41
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:06:42
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:07:26
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:07:46
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:08:24
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:08:25
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:08:30
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:08:31
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:08:45
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:09:20
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:09:22
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:09:31
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:09:32
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:09:35
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:10:04
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:10:05
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
-========================================
-Timestamp: 2024-11-07 04:10:10
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 30
-========================================
-Timestamp: 2024-11-07 04:10:11
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 12
+Line: 28
 ========================================

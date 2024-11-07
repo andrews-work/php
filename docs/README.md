@@ -46,6 +46,14 @@
 44. making error handler to display localhost errors nicely (i removed the one from step 18 for somereason)
 45. error handler class - remove file paths
 46. error handler page - tailwind
+47. 
+
+
+# errors
+
+1. tailwind config in error page must be error with tailwind.config.js
+2. error class should only be used in dev environment
+3. 
 
 # next
 
