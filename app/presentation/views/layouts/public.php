@@ -1,4 +1,5 @@
-<?php
+<?
+
 function renderLayout($title, $content) {
     ?>
     <!DOCTYPE html>
@@ -21,4 +22,5 @@ function renderLayout($title, $content) {
     </html>
     <?php
 }
+
 ?>

@@ -1,4 +1,4 @@
-<?php
+<?
 
 // Include the layout and class files
 require_once __DIR__ . '/../layouts/public.php';

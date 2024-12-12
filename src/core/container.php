@@ -1,8 +1,8 @@
-<?php
+<?
 
-namespace framework\utils\containers;
+namespace framework\core;
 
-class start {
+class container {
     private $services = [];
 
     public function set($key, $value) {

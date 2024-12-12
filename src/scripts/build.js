@@ -1,11 +1,11 @@
-require('dotenv').config({ path: `app/core/config/env/.env.${process.env.NODE_ENV}` });
+require('dotenv').config({ path: `app/config/env/.env.${process.env.NODE_ENV}` });
 
 const { spawn } = require('child_process');
 
 const commands = {
   dev: [
     {
-      command: 'tailwindcss -i ./presentation/css/input.css -o ./../public/css/output.css --watch',
+      command: 'tailwindcss -i ../presentation/css/input.css -o ./../public/css/output.css --watch',
       message: 'building tailwind'
     },
     {

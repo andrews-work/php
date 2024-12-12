@@ -1,121 +1,56 @@
 - root
-    - .gitignore
     - app/
+        - app/
+            - handlers/
+            - middleware/
+            - services/
+            - validation
         - app.php
         - config/
-            - logs.php (if needed - maybe for custom logs)
-            - env/
-                - .env.dev
-                - .env.prod
-                - .env.uat 
-        - controllers/
-            - authController.php
-            - homeController.php
-        - database
-            - fake/
+        - core/
+            - app.php
+            - container.php
+            - services.php
+        - data/
+            - faker/
             - migrations/
-        - models/
-        - routes/
-            - web.php
-        - services/
-            - logger.php
-        - storage/
-            - logs/
-            - uploads/
-            - cache/
-        - views/
-            - components/
-                - form/
-                - livewire/
-                - logo/
-                - navigation/
-                    - footer.php
-                    - header.php
-                - template/
-                    - hero.php
-                    - productPreview.php
-            - pages/
-                - home.php
-                - about.php
-                - register.php
-            - layouts/
-            - livewire/
-            - views/
-    - composer.json
-    - config/
-        - config.php
-        - env/ (currently this is where the env files are but they wil be moved from root/config to root/app/config same as the package and comopopser setup files)
-    - docs
-    - node_modules/
-    - package-lock.json
-    - package.json
-    - postcss.config.js
-    - public/
-        - css/
-        - index.php
-        - js/
-    - src/
-        - components/
-        - css/
-            - input.css
-        - router.php
-        - state
-        - storage/
-            - logs/
-            - temp
-        - utils/
-            - errorHandler.php
-            - utils.js
-    - tailwind.config.js
-    - tests/
-    - vendor/
-        - autoload.php
-        - composer/ 
-
-
-- root
-    - app/
+                - user.php
+            - models/
+                - user.php
+            - repos/
+        - infrastructure
+            - caching/
+            - events/
+            - listeners/
+            - notifications
+            - storage/
         - presentation/
+            - controllers/
+                - auth.php
+                - guest.php
+                - user.php
+            - routes/
+                - pages.php
             - views/
                 - pages/
-                    - contact.php
+                    - register.php
+                    - login.php
+        - security/
+            - authentication/
+            - authorisation/
+            - encyrption/
+    - public/
     - src/
-        - presentation/
-            - views/
-                - components/
-                    - cards/
-                        - render.php
-                        - imgText.php
-                        - textImg.php
-                        - text.php
-                    - template/
-                        - cards2.php
-                        - cards3.php
-                        - cards4.php
-                        - render.php
+        - core/
+            - app.php
+            - services.php    
+            - container.php
+        - data/
+            - migration.php    (abstract migration class)
+            - db.php           (database connection handling)
+            - model.php        (model class)
+        - utils/
+            - logs/
+                - logs.php      (logging utility)
 
-// i wanna change the src directory like below using classes, is it possible? 
 
-    - src/
-        - presentation/
-            - views/
-                - components/
-                    - cards/
-                        - render.php
-                        - cards.php # class 
-                    - template/
-                        - cards.php # class
-                        - render.php
-
-- src/
-    - app.php
-    - config/
-        - services.php
-    - database/
-        - connection.php
-    - presentation/
-        - router/
-            - router.php
-    - utils/
-        - logs/
-            -logs.php

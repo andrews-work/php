@@ -1,16 +1,27 @@
-<?php
+<?
 
 namespace app\core;
 
-use framework\framework;
-use framework\utils\logs\logs;
+use app\core\services;
+use app\core\container;
 
-// Include the framework's entry file
-require_once './../src/app.php';
 
-// Get the framework's container instance
-$container = framework::getContainer();
+class app
+{
+    private static $container;
 
-// Include the router file to set up the routes
-require_once './app/presentation/routes/pages.php';
-logs::info('App started');
+    public static function getContainer()
+    {
+        if (self::$container === null) {
+            self::$container = new container();
+
+            services::configure(self::$container);
+        }
+        return self::$container;
+    }
+
+    public static function init()
+    {
+        self::getContainer();
+    }
+}

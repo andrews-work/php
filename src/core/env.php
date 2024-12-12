@@ -1,6 +1,6 @@
-<?php
+<?
 
-namespace framework\config;
+namespace framework\core;
 
 use Exception;
 

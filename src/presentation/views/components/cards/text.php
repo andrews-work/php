@@ -1,5 +1,3 @@
-// cards/text.php
-
 <div class="overflow-hidden bg-white rounded-lg shadow-md">
     
     <div class="p-4">

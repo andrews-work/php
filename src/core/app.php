@@ -1,11 +1,13 @@
-<?php
+<?
 
-namespace framework;
+namespace framework\core;
 
-require_once '../vendor/autoload.php';
+// var_dump(class_exists('framework\\data\\migration'));
 
-use framework\utils\containers\start;
-use framework\config\services;
+require_once './../vendor/autoload.php';
+
+use framework\core\container;
+use framework\core\services;
 use framework\app\handlers\errors;
 
 class framework
@@ -15,7 +17,7 @@ class framework
     public static function getContainer()
     {
         if (self::$container === null) {
-            self::$container = new start();
+            self::$container = new container();
             services::configure(self::$container);
         }
 

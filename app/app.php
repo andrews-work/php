@@ -1,15 +1,14 @@
-<?php
+<?
 
 namespace app;
 
-use framework\framework;
+use framework\core\framework;
+use app\core\app;
 
-// Include the framework's entry file
-require_once '../src/app.php';
+require_once '../src/core/app.php';
 
-// Get the framework's container instance
-// $container = framework::getContainer();
 framework::init();
+app::init();
 
-// Include the router file to set up the routes
+// main router
 require_once '../app/presentation/routes/pages.php';

@@ -1,0 +1,18 @@
+Hey Buckham & Duffy, 
+
+I am a self taught software developer who has excellent analytical thinking, paired with a creative, problem-solving mindset. I have proven experience with Laravel + MySQL developing a learning management system implementing API's and debugging old features. I am looking to take the next step in my career and believe working with your company would allow me to excel and grow as a developer and a person. 
+
+During my time at PharmaDesignLabs I was the sole developer on the learning management system reporting directly to the CEO. When I started many of the features were broken, so I had to troubleshoot and implement debugging methods, taking ownership of the task and seeing it through till completion. Working on both the design and development making sure Stripe and Zoom API's were integrated and tested ensuring high quality standards were met before deployment. I ensured that when developing, designing and refining old features and implementing new ones that they were maintainable, scalable and efficient from emails invoices, messaging to forums. 
+
+I am an avid user of Tailwind CSS, as it enables me to maintain concise files and efficiently create section boilerplates, significantly reducing time spent on CSS. I have also used VueJs and Livewire although not extensively (only in personal projects), although I love learning new technologies and deeply value the pursuit of knowledge. During my time at CFS group, I collaborated with the CEO to design and develop a chrome extension connecting to the company's API to make automatic posts on Facebook marketplace using manifest v3, javascript and jQuery with some basic CSS. I also utilized Bootstrap 4.5 to design and develop the frontend for several client websites, ensuring responsive and visually appealing user interfaces that enhanced the overall user experience.
+
+I have an out-of-the-box approach to problem-solving, and I thrive when thrown into the deep end. This approach allows me to work effectively under pressure and tackle challenges with creativity and dedication. I am driven to succeed and passionate about what I do, which aligns perfectly with your requirements. I am comfortable working autonomously and within a high-performing, close-knit team, continuously striving to improve everything I do. My ability to maintain a positive attitude and communicate openly and transparently, even when juggling multiple tasks under pressure, makes me an ideal fit for your dynamic and fast-paced environment. I am committed to being helpful, encouraging, and respectful to all team members and everyone I interact with, and I am willing to travel and work extended hours when needed to achieve our goals.
+
+I understand I may not have as much experience as the other candidates with the tech stack but within a month I know I would become a very valuable asset to the Buckham & Duffy. Currently I am trying to build my own PHP framework so I can have a more complete understanding of the complexities of Laravel.
+
+I hope you have a good day and I look forward to hearing from you, 
+
+Cheers, 
+
+Andrew
+

@@ -1,6 +1,6 @@
-<?php
+<?
 
-namespace framework\database;
+namespace framework\data;
  
 use framework\utils\logs\logs;
 use PDO;
@@ -27,16 +27,16 @@ class db {
             $this->connection = new PDO($dsn, $user, $pass);
             $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-            // logs::info("Database connection successful: {$dsn}");
+            // logs::info("Database connection successful:");
 
         } catch (PDOException $e) {
             // Log + kill
-            logs::info('Connection failed: ' . $e->getMessage());
+            logs::info('Connection failed');
             die('Connection failed: ' . $e->getMessage());
         }
     }
 
-    // Create new db instance
+    // instance
     public static function getInstance() {
         if (self::$instance === null) {
             self::$instance = new db();
@@ -44,7 +44,7 @@ class db {
         return self::$instance;
     }
 
-    // Get the database connection
+    // connection
     public function getConnection() {
         return $this->connection;
     }

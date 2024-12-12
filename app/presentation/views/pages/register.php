@@ -1,4 +1,4 @@
-<?php
+<?
 
 // layout - public
 require_once __DIR__ . '/../layouts/public.php';

@@ -1,4 +1,4 @@
-<?php
+<?
 
 // Use the form class
 use framework\presentation\views\components\form;  

@@ -1,4 +1,4 @@
-<?php
+<?
 
 namespace framework\presentation\views;
 

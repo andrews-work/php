@@ -1,1000 +1,454 @@
-Timestamp: 2024-11-07 12:48:20
+Timestamp: 2024-11-23 13:14:09
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:14:09
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:14:09
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:14:09
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 12:48:21
+Timestamp: 2024-11-23 13:18:32
 Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
+Message: test
+File: app/core/services.php
+Line: 12
 ========================================
-Timestamp: 2024-11-07 12:48:24
+Timestamp: 2024-11-23 13:18:32
 Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
 ========================================
-Timestamp: 2024-11-07 12:57:49
+Timestamp: 2024-11-23 13:18:32
 Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
+Message: test1
+File: app/core/services.php
+Line: 14
 ========================================
-Timestamp: 2024-11-07 12:58:11
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 12:58:19
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 12:58:27
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:00:16
+Timestamp: 2024-11-23 13:18:32
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:00:33
+Timestamp: 2024-11-23 13:18:50
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:18:50
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:18:50
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:18:50
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:00:36
+Timestamp: 2024-11-23 13:19:42
 Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
+Message: test
+File: app/core/services.php
+Line: 12
 ========================================
-Timestamp: 2024-11-07 13:00:36
+Timestamp: 2024-11-23 13:19:42
 Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
 ========================================
-Timestamp: 2024-11-07 13:03:18
+Timestamp: 2024-11-23 13:19:42
 Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
+Message: test1
+File: app/core/services.php
+Line: 14
 ========================================
-Timestamp: 2024-11-07 13:03:18
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:03:27
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:03:27
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:03:31
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:03:31
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:03:37
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:03:37
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:03:39
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:03:39
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:05:13
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:05:13
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:05:15
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:05:15
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:05:17
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:05:17
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:05:22
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:05:22
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:05:56
+Timestamp: 2024-11-23 13:19:42
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:06:15
+Timestamp: 2024-11-23 13:28:29
 Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
+Message: test
+File: app/core/services.php
+Line: 12
 ========================================
-Timestamp: 2024-11-07 13:06:16
+Timestamp: 2024-11-23 13:28:29
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:28:29
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:28:29
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:06:17
+Timestamp: 2024-11-23 13:28:54
 Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
+Message: test
+File: app/core/services.php
+Line: 12
 ========================================
-Timestamp: 2024-11-07 13:06:18
+Timestamp: 2024-11-23 13:28:54
 Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
 ========================================
-Timestamp: 2024-11-07 13:06:30
+Timestamp: 2024-11-23 13:28:54
 Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
+Message: test1
+File: app/core/services.php
+Line: 14
 ========================================
-Timestamp: 2024-11-07 13:06:30
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:07:10
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:07:10
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:09:11
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:09:18
+Timestamp: 2024-11-23 13:28:54
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:09:20
+Timestamp: 2024-11-23 13:29:05
 Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
+Message: test
+File: app/core/services.php
+Line: 12
 ========================================
-Timestamp: 2024-11-07 13:09:22
+Timestamp: 2024-11-23 13:29:05
 Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
 ========================================
-Timestamp: 2024-11-07 13:09:22
+Timestamp: 2024-11-23 13:29:05
 Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
+Message: test1
+File: app/core/services.php
+Line: 14
 ========================================
-Timestamp: 2024-11-07 13:09:23
+Timestamp: 2024-11-23 13:29:05
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:09:23
+Timestamp: 2024-11-23 13:30:03
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:30:03
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:30:03
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:30:03
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:09:53
+Timestamp: 2024-11-23 13:30:12
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:30:12
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:30:12
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:30:12
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:09:53
+Timestamp: 2024-11-23 13:40:35
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:40:35
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:40:35
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:40:35
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:10:40
+Timestamp: 2024-11-23 13:41:35
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:41:35
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:41:35
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:41:35
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:10:40
+Timestamp: 2024-11-23 13:42:26
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:42:26
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:42:26
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:42:26
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:10:42
+Timestamp: 2024-11-23 13:42:45
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:42:45
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:42:45
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:42:45
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:10:48
+Timestamp: 2024-11-23 13:42:52
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:42:52
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:42:52
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:42:52
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:10:48
+Timestamp: 2024-11-23 13:43:04
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:43:04
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:43:04
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:43:04
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:10:48
+Timestamp: 2024-11-23 13:44:32
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:44:32
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:44:32
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:44:32
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:10:54
+Timestamp: 2024-11-23 13:46:05
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:46:05
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:46:05
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:46:05
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:10:54
+Timestamp: 2024-11-23 13:46:44
+Level: info
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:46:44
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:46:44
+Level: info
+Message: test1
+File: app/core/services.php
+Line: 14
+========================================
+Timestamp: 2024-11-23 13:46:44
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:10:54
+Timestamp: 2024-11-23 13:46:54
 Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
+Message: test
+File: app/core/services.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:46:54
+Level: info
+Message: test4
+File: app/core/loaders/migration.php
+Line: 12
+========================================
+Timestamp: 2024-11-23 13:46:54
+Level: info
+Message: test1
+File: app/core/services.php
 Line: 14
 ========================================
-Timestamp: 2024-11-07 13:11:36
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:36
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:39
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:39
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:45
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:45
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:48
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:48
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:49
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:49
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:51
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:51
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:51
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:57
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:57
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:11:58
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:12:03
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:12:04
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:12:17
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:12:17
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:12:24
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:12:26
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:12:26
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:12:27
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:12:27
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:12:42
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:12:49
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:12:49
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:13:18
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 13
-========================================
-Timestamp: 2024-11-07 13:13:18
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 13
-========================================
-Timestamp: 2024-11-07 13:13:21
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 13
-========================================
-Timestamp: 2024-11-07 13:15:03
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 13
-========================================
-Timestamp: 2024-11-07 13:15:13
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 13
-========================================
-Timestamp: 2024-11-07 13:15:15
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 13
-========================================
-Timestamp: 2024-11-07 13:15:22
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 13
-========================================
-Timestamp: 2024-11-07 13:15:36
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 13
-========================================
-Timestamp: 2024-11-07 13:15:39
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 13
-========================================
-Timestamp: 2024-11-07 13:15:58
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:16:08
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:16:09
-Level: info
-Message: User attempting to register
-File: app/presentation/controllers/auth.php
-Line: 13
-========================================
-Timestamp: 2024-11-07 13:16:11
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:17:21
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:17:21
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:17:27
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:17:27
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:18:21
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:18:21
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:19:55
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:19:55
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:20:02
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:20:02
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:20:04
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:20:12
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:20:27
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:23:42
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:23:42
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:23:53
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:23:53
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:23:54
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:23:54
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:23:55
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:23:55
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:24:05
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:24:12
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:24:32
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:24:34
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:24:35
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:24:36
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:24:36
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:24:37
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:24:37
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:24:38
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:24:38
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:24:57
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:24:57
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:24:58
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:24:59
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:52:02
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:52:03
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 13:52:06
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:52:31
-Level: info
-Message: register page
-File: app/presentation/controllers/guest.php
-Line: 35
-========================================
-Timestamp: 2024-11-07 13:52:31
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:52:34
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:52:36
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:52:37
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:52:37
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:52:38
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:52:46
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:52:46
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:52:47
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:52:47
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:52:50
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:52:50
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:53:03
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:53:05
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:53:08
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:53:17
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:53:20
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:53:38
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:53:40
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:53:45
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:54:33
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:54:35
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:54:54
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:55:09
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:59:12
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:59:13
-Level: info
-Message: about page
-File: app/presentation/controllers/guest.php
-Line: 21
-========================================
-Timestamp: 2024-11-07 13:59:14
-Level: info
-Message: home page
-File: app/presentation/controllers/guest.php
-Line: 14
-========================================
-Timestamp: 2024-11-07 13:59:15
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 14:10:40
-Level: info
-Message: contact page
-File: app/presentation/controllers/guest.php
-Line: 28
-========================================
-Timestamp: 2024-11-07 14:16:14
+Timestamp: 2024-11-23 13:46:54
 Level: info
 Message: home page
 File: app/presentation/controllers/guest.php

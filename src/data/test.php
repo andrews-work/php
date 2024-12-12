@@ -1,10 +1,12 @@
-<?php
+<!-- run this file in terminal to test db connection: php src/data/test.php -->
 
-namespace framework\database;
+<?
 
-require_once 'connection.php'; 
+namespace framework\data;
 
-use framework\database\db;
+require_once 'db.php'; 
+
+use framework\data\db;
 
 // Attempt to get the DB instance
 $dbInstance = db::getInstance();

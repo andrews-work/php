@@ -1,4 +1,4 @@
-<?php
+<?
 // Ensure you escape any values to prevent XSS attacks
 $errorType = htmlspecialchars($errorData['type']);
 $errorMessage = htmlspecialchars($errorData['message']);
